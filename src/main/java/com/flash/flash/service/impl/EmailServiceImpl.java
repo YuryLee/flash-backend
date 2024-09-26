@@ -101,7 +101,7 @@ public class EmailServiceImpl implements EmailService {
 
         System.out.println("激活码:"+code);
         //主题
-        String subject = "智能编辑器网站注册验证码";
+        String subject = "Flash Scholars 注册验证码";
         //上面的激活码发送到用户注册邮箱
         String context = "您的验证码为:" + code + "，验证码10分钟内有效。";
         //发送激活邮件
